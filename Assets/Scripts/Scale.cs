@@ -44,8 +44,6 @@ public class Scale : MonoBehaviour
             else if(t1.phase == TouchPhase.Moved)
             {
 
-                var dis = (pos.x - t1.position.x) * 0.1f;
-                gameObject.transform.localRotation = initialRotate * Quaternion.Euler(0, 0, dis) ;
             }
         }
     }

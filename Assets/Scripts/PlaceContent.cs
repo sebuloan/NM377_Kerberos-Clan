@@ -33,8 +33,6 @@ public class PlaceContent : MonoBehaviour
         {
             position = Input.mousePosition
         };
-        List<RaycastResult> results = new List<RaycastResult>();
-        raycaster.Raycast(data, results);
-        return results.Count > 0;
+
     }
 }

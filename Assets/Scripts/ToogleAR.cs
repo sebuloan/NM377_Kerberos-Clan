@@ -23,12 +23,5 @@ public class ToogleAR : MonoBehaviour
         }
     }
 
-    void VisualizePoints(bool active)
-    {
-        pointCloudManager.enabled = active;
-        foreach (ARPointCloud point in pointCloudManager.trackables)
-        {
-            point.gameObject.SetActive(active);
-        }
-    }
+ 
 }
