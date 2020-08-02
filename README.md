@@ -9,5 +9,4 @@
 APK available in output folder. It can be installed to get the output as shown in screenshot
 
 ## Code Build
-
-Main code available in that path WWW. Built using Cesiumjs,nodejs,npm. 
+Built using Cesiumjs,nodejs,npm. 
